@@ -1,25 +1,50 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './screens/home/Home';
+import Shop from './screens/shop/Shop';
+import ShopCart from './screens/shop-cart/ShopCart';
+import ProductsDetails from './screens/products-detail/ProductsDetails';
+import Contact from './screens/contact/Contact';
+import CheckOut from './screens/checkout/CheckOut';
+import Blog from './screens/blog/Blog';
+import BlogDetail from './screens/blog-detail/BlogDetail';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Switch>
+        <Route path="/shop">
+          <Shop />
+        </Route>
+        <Route path="/shopcart">
+          <ShopCart />
+        </Route>
+        <Route path="/productdetail">
+          <ProductsDetails />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/checkout">
+          <CheckOut />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route>
+        <Route path="/blogdetail">
+          <BlogDetail />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

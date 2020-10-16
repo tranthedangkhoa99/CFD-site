@@ -1,0 +1,70 @@
+{
+    "section1": [
+        {
+            "title": "Women fashion",
+            "desc": "lorem ipsum dolor sit",
+            "img": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women fashion",
+            "desc": "lorem ipsum dolor sit",
+            "img": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women fashion",
+            "desc": "lorem ipsum dolor sit",
+            "img": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women fashion",
+            "desc": "lorem ipsum dolor sit",
+            "img": "img/categories/category-1.jpg",
+            "link": "#"
+        },
+        {
+            "title": "Women fashion",
+            "desc": "lorem ipsum dolor sit",
+            "img": "img/categories/category-1.jpg",
+            "link": "#"
+        }
+    ],
+    "productList":[
+        {
+            "title": "Long coat blazer",
+            "price": "$ 59.0",
+            "promotions":"$ 49.0",
+            "img":"img/product/product-5.jpg"
+        },
+        {
+            "title": "Long coat blazer",
+            "price": "$ 59.0",
+            "promotions":"$ 49.0",
+            "img":"img/product/product-5.jpg",
+            "out_of_stock":true
+        },
+        {
+            "title": "Long coat blazer",
+            "price": "$ 59.0",
+            "promotions":"$ 49.0",
+            "img":"img/product/product-5.jpg",
+            "sale":true
+        },
+        {
+            "title": "Long coat blazer",
+            "price": "$ 59.0",
+            "promotions":"$ 49.0",
+            "img":"img/product/product-5.jpg",
+            "new": true
+        },
+        {
+            "title": "Long coat blazer",
+            "price": "$ 59.0",
+            "promotions":"$ 49.0",
+            "img":"img/product/product-5.jpg",
+            "sale":true
+        }
+    ]
+}
